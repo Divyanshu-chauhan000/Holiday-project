@@ -1,0 +1,158 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    /* font-family: "Roboto", serif; */
+}
+body{
+    /* padding: 20px; */
+    background-color: #c3d2ae;
+}
+nav{
+    padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo a{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+   width: 30px;
+   height: 30px;
+}
+.logo p{
+  font-size: 33px;
+  padding-left: 10px;
+  font-weight: bolder;
+  color: rgb(4, 73, 4);
+
+}
+.logo-cont p{
+    padding-top: 7px;
+    color: #1b3c07;
+}
+.nav-links ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 30px;
+    list-style: none;
+    gap: 10px;
+  
+}
+.nav-links ul li a{
+    color: #1b3c07;
+    font-size: 13px;
+    font-family: "Roboto", serif;
+}
+.search{
+    padding-left: 14px;
+}
+.bar{
+    display: none;
+}
+.spacer{
+    padding: 35px;
+}
+.hero-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+.hero-cont p{
+    color: #1b3c07;
+    font-size: large;
+    font-family: "Roboto", serif;
+}
+.hero-cont h2{
+    padding: 20px;
+    font-size: 54px;
+    color: #1b3c07;
+}
+.line{
+    width: 100%;
+    height: 0.5px;
+    background-color: #1b3c07;;
+    margin-top: 10px;
+}
+.spacer{
+    padding: 35px;
+}
+.garden-content{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding-top: 20px;
+    gap: 50px;
+}
+
+.gc-subcards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.gc-subcards img{
+    width: 100%;
+    height: 70%;
+   object-fit: cover;
+   object-position: center;
+
+}
+.gc-subcards h3{
+    font-size: 24px;
+    color: #1b3c07;
+    /* width: 80%; */
+    padding-top: 12px;
+    padding-left: 0px;
+}
+.gc-subcards p{
+    padding-top: 12px;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Roboto", serif;
+    color: #1b3c07;
+}
+.gc-read-link{
+    margin-top: 20px;
+}
+.gc-read-link a{
+    font-size: 12px;
+    color: #1b3c07;
+    font-family: "Roboto", serif;
+}
+footer{
+    padding: 20px;
+}
+.foot-links{
+    display: flex;
+    gap: 10px;
+}
+.foot-links a{
+    color: black;
+    font-size: small;
+}
+
+.foot-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding-top: 20px; */
+}
+.D-W{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Roboto", serif;
+    color: #1b3c07;
+}
+.D-W a{
+    color: #1b3c07;
+}
+.F-L{
+    font-size: 33px;
+    padding-left: 10px;
+    font-weight: bolder;
+    color: rgb(4, 73, 4);
+}
